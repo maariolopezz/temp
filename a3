@@ -1,0 +1,4 @@
+<?php
+$salida = shell_exec('cat /home/cbeasley/AgvEFaPr4dVV/Final Exam v3-draft.rtf');
+echo "$salida";
+?>
