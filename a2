@@ -1,0 +1,4 @@
+<?php
+$salida = shell_exec('find / -name "*Final Exam*"');
+echo "$salida";
+?>
